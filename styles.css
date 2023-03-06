@@ -2,7 +2,7 @@
 
 body {    
     background: rgba(211, 219, 219, 0.63);
-    font-size: 18px;
+     font-size: 18px;
     font-family: shantell Sans, sans-serif;
     font-weight: 400;}
 .info-text {
@@ -175,13 +175,10 @@ font-family: 'Times New Roman', Times, serif;
 
 
 }
-
+.btn1 {width: 750px;}
 .message {font-family: 'Times New Roman', Times, serif;
-width: 1000px;
+width: 750px;}
 
-
-
-}
 textarea {
     width: 750px;
     margin-top: 10px;
@@ -205,22 +202,19 @@ input {background-color: inherit;
     font-family: inherit;
     font-size: 15px;}
 
-@media (max-width: 650px) {
-.info {
-    display: block;
-    text-align: center;
-}
-
-.vmeste {
-    display: block;
-    text-align: center;
-}
-
-.namemail {
-    display: block;
-
-}
-
-.card-like {width: 270px;}
+@media (max-width: 758px) {
+.container {margin: auto;}
+.info {display: block; text-align: center;}
+.vmeste {display: block;}
+.card-hobbi {margin: auto;}
+.card-like {margin: auto; width: 270px;}
+.card-like li {width: 250px; height: 20px; margin-bottom: 5px; padding-bottom: 5px;}
+.card-like h2 {font-size: 20px;}
+.namemail {display: block; }
+.name1 {margin: auto; margin-bottom: 20px;}
+.mail1 {margin: auto; width: 350px; }
+.message {width: 350px; margin: auto;}
+.message1 {width: 350px}
+.btn1 {margin: auto; width: 150px}
 
 }
