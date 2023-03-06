@@ -8,30 +8,33 @@
     <meta name="keywords" content="irina, cv, resume">
     <meta name="description" content="Это сайт-резюмен Степаненко Ирины">
     <meta keywords>
+       <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
-  <img src="IMG_8195.JPG" width="300" alt="Степаненко Ирина">
+
+  <div class="container">
+  <div class="info">
+     <img src="imgs/IMG_8195.JPG" alt="Степаненко Ирина" class="foto">
+
+  <div class="info-text">
   <h1>Степаненко Ирина</h1>
-  <hr>
-   <p>Я хочу научиться <strong>писать сайты</strong> и <strong>зарабатывать</strong> на этом</p>
+  
+   <p>Я хочу научиться <strong>писать сайты</strong> и <strong>зарабатывать</strong> на этом.</p>
    <p>А зарабатывать я хочу для того, чтобы <em>путешествовать!</em></p>
-<hr>
-   <h2><strong>Список социальных сетей:</strong></h2>
-<a href="https://vk.com/stepanenochka" target="_blank">VK</a>
+ 
+   <h3>Список социальных сетей:</h3>
+<a href="https://vk.com/stepanenochka" target="_blank" class="links">VK</a>
 |
-<a href="https://t.me/stepanenochka" target="_blank">Telegram</a>
-<hr>
-<h2>Мои хобби:</h2>
-<ol>
-  <li>Сноуборд</li>
-  <li>Прогулки</li>
-  <li>Путешествия</li>
-</ol>
-<hr>
+<a href="https://t.me/stepanenochka" target="_blank" class="links">Telegram</a>  </div>
+
+</div>
+
+<div class="card-opit">
 <h2>Опыт работы:</h2>
-<table>
+<table class="table">
 <thead>
-  <tr>
+<tr>
 <th>Организация</th>
 <th>Должность</th>
 <th>Год</th>
@@ -61,28 +64,54 @@
 </tbody>
   </table>
 
-  <hr>
+</div>
 
-  <h2>Связаться со мной</h2>
+<div class="vmeste">
+<div class="card-hobbi">
+  <h2>Мои хобби:</h2>
+  <ol class="list">
+    <li>Сноуборд</li>
+    <li>Прогулки</li>
+    <li>Путешествия</li>
+  </ol>
+  </div>
+<div class="card-like">
+  <h2>Любимые Youtube-каналы:</h2>
+  <ul class="list-1">
+<li> <a href="https://www.youtube.com/@pognalishow" target="_blank" class="links">Дмитрий Масленников</a></li>
+<li> <a href="https://www.youtube.com/@svoim_xodom" target="_blank" class="links">Своим ходом</a></li>
+<li> <a href="https://www.youtube.com/@vanzai" target="_blank" class="links">vanzai</a></li>
+  </ul>
+</div> </div>
+
+  <h2 class="tome">Связаться со мной</h2>
   <form action="">
-<div>
-  <label for="name">Ваше имя:</label>
+    
+
+
+<div class="namemail">
+<div class="name1">
+  <label for="name" >Ваше имя:</label>
+  <br>
   <input type="text" id="name" placeholder="Введите имя">
 </div>
 
-<div>
-  <label for="email">Ваш email:</label>
+<div class="mail1">
+  <label for="email" >Ваш email:</label>
+  <br>
   <input type="email" id="email" placeholder="Введите email">
-</div>
+</div> </div>
 
-<div>
+<div class="message">
   <label for="message">Ваше сообщение:</label>
 <br>
 <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
 </div>
 
+
 <div>
-<input type="submit" value="Отправить!">
+<input class="btn" type="submit" value="Отправить!">
+</div>
 </div>
 </form>
 </body>
